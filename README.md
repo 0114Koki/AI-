@@ -1,0 +1,2 @@
+# AI-
+chatGPTのAPIを使ってみたかった
