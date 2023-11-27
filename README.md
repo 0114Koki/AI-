@@ -76,10 +76,6 @@ ChatGPTを用いたパーティゲームです。AIに乗っ取られた人間�
 - Vue.js
 - AWS(DynamoDB, Lamda, EC2)
 - ChatGPT API
-
-## 開発メンバー
-- Nao: Backend
-- Kuri: FrondEnd
 =======
 
 ## フロントの流れ
