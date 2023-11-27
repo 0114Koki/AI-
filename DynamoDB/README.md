@@ -30,3 +30,10 @@
 
 ## 質問テーブル
 事前に用意した質問から出題するモードで使う質問を格納しておくテーブル
+
+# 参考にしたもの
+ - 「API Gateway + LambdaでREST API開発を体験しよう [10分で完成編]」
+ https://qiita.com/tamura_CD/items/46ba8a2f3bfd5484843f
+ - 今回は、GETメソッドのAPIを作成します。
+     - 1: Lambdaで、APIの内部処理を担当する関数を作成する。
+     - 2: API Gatewayで、REST APIを作成して、Lambda関数を繋げて、APIを完成させる。
