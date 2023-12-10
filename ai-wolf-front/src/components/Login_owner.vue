@@ -68,16 +68,16 @@ const onEnter_owner = async () => {
 <template>
   <div class="mx-auto my-5 px-4">
     <h1 class="header">オーナー登録</h1>
-    <div class="mt-10">
+    <div class="mt-10 name-color">
       <p>ユーザー名</p>
       <input type="text" class="namearea" v-model="Owner_input_username" />
     </div>
     <div>
-      <p>参加人数(3~10)</p>
+      <p class="name-color">参加人数(3~10)</p>
       <input type="number" class="namearea" min="3" max="10" v-model="n_mem" />
     </div>
     <div>
-      <p>ハックされた人数(推奨2人)</p>
+      <p class="name-color">ハックされた人数(推奨2人)</p>
       <input type="number" class="namearea" min="1" max="4" v-model="n_hacked"/>
     </div>
     <button type="button" @click="onEnter_owner" class="loginbtn loginbtn--shadow">ルームを作成</button>
@@ -85,6 +85,9 @@ const onEnter_owner = async () => {
 </template>
 
 <style scoped>
+.name-color {
+  color: #fff;
+}
 /*真っ黒の背景に白い文字を表示 */
 .black-background {
   background-color: #000;

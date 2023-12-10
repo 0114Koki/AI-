@@ -4,7 +4,7 @@ import socketIoPlugin from "./plugins/socket.io.plugin"
 import socketEvents from "./socket_event"
 
 export default defineConfig(({ command, mode }) => {
-  //base: "ai-wolf-front"
+  //base: "AI-wolf"
   const env = loadEnv(mode, process.cwd(), "")
 
   return {

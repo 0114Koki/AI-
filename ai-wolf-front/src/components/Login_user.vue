@@ -64,15 +64,15 @@ const onEnter_user = async () => {
   <div class="mx-auto my-5 px-4">
     <h1 class="header">ユーザー登録</h1>
     <div class="mt-10">
-      <p>ユーザー名</p>
+      <p class="name-color">ユーザー名</p>
       <input type="text" class="namearea" v-model="User_input_username" />
     </div>
     <div>
-        <p>roomID</p>
+        <p class="name-color">roomID</p>
         <input type="numver" class="namearea" v-model="User_input_room_id" />
     </div>
     <div>
-        <p>Password</p>
+        <p class="name-color">Password</p>
         <input type="text" class="namearea" v-model="User_input_password"/>
     </div>
     <button type="button" @click="onEnter_user" class="loginbtn loginbtn--shadow">ルームに入る</button>
@@ -81,6 +81,9 @@ const onEnter_user = async () => {
 </template>
 
 <style scoped>
+.name-color {
+  color: #fff;
+}
 .user-name-text {
   width: 200px;
   border: 1px solid #888;
